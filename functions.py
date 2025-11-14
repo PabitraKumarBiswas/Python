@@ -27,3 +27,9 @@ def add_one_to_num(number):
 number = 10
 new_number = add_one_to_num(number)
 print(new_number)
+
+# lambda function
+get_sum = lambda num1, num2 : num1 + num2 + num1
+print(get_sum(9, 1))
+add_five_to_num = lambda num : num + 5
+print(add_one_to_num(15))
